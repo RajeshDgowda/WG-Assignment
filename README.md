@@ -58,6 +58,8 @@ order_msg/
 
 ## How to Use
 
+#Note: As per the instruction given in the guide there are absolute paths to parse the `.yaml` files to test the code please change the path in ` order_optimizer.cpp`to the absolute path of your ROS2 workspace. 
+
 1. **Setup ROS2 Environment**:
    Ensure you have ROS2 installed and sourced.
 
