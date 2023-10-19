@@ -79,6 +79,6 @@ order_msg/
    
    You can manually publish an `order.msg` message using the console. Here's an example:
    ```bash
-   ros2 topic pub /nextOrder order_msg/Order "{order_id: 1, description: 'Sample Order'}"
+   ros2 topic pub /nextOrder order_msg/Order "{order_id: 1000002, description: 'Sample Order'}"
    ```
 
