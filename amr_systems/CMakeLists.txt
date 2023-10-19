@@ -62,7 +62,7 @@ if(BUILD_TESTING)
   add_library(amr_systems SHARED ${SOURCES})
 
   # Find and load settings of required packages for testing
-  find_package(ament_lint_auto REQUIRED)
+  #find_package(ament_lint_auto REQUIRED)
   find_package(ament_index_cpp REQUIRED)
   find_package(rclcpp REQUIRED)
   find_package(yaml-cpp REQUIRED)
@@ -70,7 +70,7 @@ if(BUILD_TESTING)
   find_package(order_msg REQUIRED)
 
   # Automatically find and load test dependencies
-  ament_lint_auto_find_test_dependencies()
+  #ament_lint_auto_find_test_dependencies()
 
   # Add a test executable
   find_package(ament_cmake_gtest REQUIRED)
