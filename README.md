@@ -58,24 +58,25 @@ order_msg/
 
 ## How to Use
 
-1. **Setup ROS2 Environment**: Ensure you have ROS2 installed and sourced.
+1. **Setup ROS2 Environment**:
+   Ensure you have ROS2 installed and sourced.
 
-2. **Clone the Repository**:
+3. **Clone the Repository**:
    ```bash
    git clone [repository_url]
    ```
 
-3. **Build the Workspace**:
+4. **Build the Workspace**:
    ```bash
    colcon build --packages-select amr_systems
    ```
 
-4. **Run the `order_optimizer_node`**:
+5. **Run the `order_optimizer_node`**:
    ```bash
    ros2 run amr_systems order_optimizer_node
    ```
 
-5. **Publish a Custom Message**:
+6. **Publish a Custom Message**:
    
    You can manually publish an `order.msg` message using the console. Here's an example:
    ```bash
