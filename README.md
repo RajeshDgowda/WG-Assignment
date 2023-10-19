@@ -63,7 +63,7 @@ order_msg/
 
 3. **Clone the Repository**:
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/RajeshDgowda/WG-Assignment.git
    ```
 
 4. **Build the Workspace**:
