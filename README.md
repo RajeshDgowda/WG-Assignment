@@ -22,23 +22,6 @@ Before diving into running or testing the package, it's essential to ensure that
 
 
 
-amr_systems/
-│
-├── CMakeLists.txt
-│
-├── include/
-│   └── amr_systems/
-│       └── order_optimizer.hpp
-│
-├── src/
-│   └── order_optimizer.cpp
-│
-├── test/
-│   └── test_order_optimizer.cpp
-│
-└── package.xml
-
-
 - **Navigating to the Workspace**: 
   Start by moving to the root directory of your ROS 2 workspace. This directory is often named `ros_ws` or `workspace`, but it might have a different name based on your setup.
    ```bash
