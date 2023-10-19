@@ -44,6 +44,7 @@ amr_systems/
 - ROS2
 - `order_msg` package: This package contains the custom message `order.msg` which is used to communicate order details.
 
+## order_msg Structure
 ```markdown
 order_msg/
 │
