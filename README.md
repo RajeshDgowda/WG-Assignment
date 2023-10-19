@@ -44,6 +44,17 @@ amr_systems/
 - ROS2
 - `order_msg` package: This package contains the custom message `order.msg` which is used to communicate order details.
 
+```markdown
+order_msg/
+│
+├── CMakeLists.txt        # CMake configuration file for the package
+│
+├── msg/
+│   └── Order.msg         # Custom ROS message definition for Order
+│
+└── package.xml           # Package information for ROS2
+```
+
 ## How to Use
 
 1. **Setup ROS2 Environment**: Ensure you have ROS2 installed and sourced.
@@ -69,10 +80,3 @@ amr_systems/
    ros2 topic pub /nextOrder order_msg/Order "{order_id: 1, description: 'Sample Order'}"
    ```
 
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request. We'll review your contributions and integrate them into the main branch.
-
----
-
-This `README.md` provides an overview of the project, its directory structure, dependencies, and basic usage instructions. You can further customize and expand upon this content based on the specific details and requirements of your project.
