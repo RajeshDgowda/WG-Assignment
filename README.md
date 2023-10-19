@@ -27,7 +27,7 @@ Before diving into running or testing the package, it's essential to ensure that
    ```
 
 - **Setting Up the ROS 2 Environment**: 
-  Ensure that your terminal is aware of the ROS 2 environment by sourcing the setup file. Replace `<ros2_distro>` with your ROS 2 distribution's name, like `foxy` or `galactic`.
+  Ensure that your terminal is aware of the ROS 2 environment by sourcing the setup file. Replace `<ros2_distro>` with your ROS 2 distribution's name, like `foxy`.
    ```bash
    source /opt/ros/<ros2_distro>/setup.bash
    ```
